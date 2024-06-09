@@ -1,0 +1,42 @@
+body {
+  font-family: 'Roboto Slab', serif;
+  background: linear-gradient(#FDFDFE 0%, #F7F9FF 100%);
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  box-sizing: border-box;
+  position: relative;
+}
+
+/* Added rule for placeholder font */
+::-webkit-input-placeholder,
+::-moz-placeholder,
+:-ms-input-placeholder,
+:-o-placeholder,
+::placeholder {
+  font-family: "Roboto Slab", sans-serif;
+}
+
+.primary-red {
+  color: #F25B6C;
+}
+
+.second-red {
+  color: #F38B98;
+}
+
+.background-light {
+  background-color: #FDFDFE;
+}
+
+.second-background {
+  background-color: #FAFAFA;
+}
+
+.dark-blue {
+  color: #3A445A;
+}
+
+.second-dark-blue {
+  color: #9A9FAE;
+}

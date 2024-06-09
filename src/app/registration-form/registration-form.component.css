@@ -1,0 +1,117 @@
+.form-container {
+  max-width: 350px;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.form-container h1 {
+  font-size: 24px;
+  text-align: center;
+}
+
+.form-container p {
+  text-align: center;
+}
+
+.form-container .form-group {
+  margin-bottom: 15px;
+}
+
+.form-container .form-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: #000000;
+  font-weight: normal;
+  font-size: 11pt;
+}
+
+.form-container .form-group .input-wrapper {
+  color: #3A445A;
+  display: flex;
+  align-items: center;
+  position: relative;
+  outline: 0;
+}
+
+.form-container .form-group .input-wrapper i {
+  position: absolute;
+  left: 0;
+  top:0;
+  width: 70px;
+  height: 100%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  color: #9A9FAE;
+  font-size: 1.6em;
+}
+
+.form-container .form-group .input-wrapper input {
+  width: 100%;
+  outline: 0;
+  padding: 10px 10px 10px 30px;
+  background-color: #FAFAFA;
+  border: 1px solid transparent;
+  box-shadow: 0px 0px 4px transparent;
+  border-radius: 4px;
+}
+
+.form-container .form-group .input-wrapper input:focus {
+  border: 1px solid #3A445A;
+  box-shadow: 0px 0px 4px hsl(221, 22%, 29%)(0, 0, 0, 0.25);
+  color: #3A445A;
+}
+
+.form-container .form-group .input-wrapper input:focus ~ i {
+  color: #3A445A;
+}
+
+.form-group .input-wrapper i.focused {
+  color: #007bff; /* Focus color */
+}
+
+.form-container .form-group input:focus::placeholder {
+  color: #3A445A;
+}
+
+.form-container .btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #F38B98;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.form-container .btn:hover {
+  background-color: #F25B6C;
+}
+
+.form-container .login-link {
+  text-align: center;
+  color: #F38B98;
+  text-decoration: none;
+  display: inline-block;
+  margin-left: 5px;
+}
+
+.logo {
+  display: block;
+  width: 150px;
+  height: 50px;
+  padding: 15px 0px;
+  margin: 0 auto;
+}
+
+.feather {
+  position: absolute;
+  padding-left: 5px;
+  width: 20px;
+  color: #9A9FAE;
+}
